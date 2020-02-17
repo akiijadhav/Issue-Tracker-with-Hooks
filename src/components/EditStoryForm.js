@@ -6,6 +6,7 @@ const EditStoryForm = (props) => {
     const handleInputChange = event => {
         console.log(event.target.name);
         const { name, value } = event.target;
+        //supressing statement as it won't allow me to set a state object
         // noinspection JSCheckFunctionSignatures
         setStory({...story, [name]: value});
     };

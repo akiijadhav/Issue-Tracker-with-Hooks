@@ -1,7 +1,6 @@
 import React from 'react'
 
 const StoryTable = props => {
-
     return (
     <table>
         <thead>
