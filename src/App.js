@@ -10,7 +10,7 @@ const App = () => {
     //fetching data with axios and setting the response.data to stories object which can be passed as props for rendering
     useEffect(() => {
         axios
-            .get(`http://www.json-generator.com/api/json/get/coJwhddnNe`)
+            .get(`https://www.json-generator.com/api/json/get/coJwhddnNe`)
             .then(res => {
                 const stories = res.data;
                 setStories(stories);
